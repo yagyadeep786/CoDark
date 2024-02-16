@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "CoDark",
+  "description": "Detecting dark patterns",
+  "version": "0.0.1",
+  "icons":{
+    "32": "logo.jpg"
+  },
+  "action": {
+    "default_title": "CoDark",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "scripting",
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+],
+    
+"background": {
+  "service_worker": "service-worker.js",
+  "type": "module"
+}
+}
+

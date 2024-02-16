@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CoDark</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="//cdn.rawgit.com/Mikhus/canvas-gauges/gh-pages/download/2.1.7/radial/gauge.min.js"></script>
+    <link rel="shortcut icon" href="./logo.jpg" type="image/x-icon">
+  </head>
+  <body>
+    <div style="display: flex; width: 100vw; justify-content: center;">
+      <div style="height: 70px; width: 70px; border-radius: 50%;">
+        <img src="./logo.jpg" alt="" height="100%" width="100%" >
+      </div>
+    </div>
+      <div class="main-area">
+      <div id="app">
+          <!-- <h1 class="head">
+            <span style="color: rgb(231, 223, 223);">Co</span>
+            <span style="color: rgb(186, 186, 203);">Dark</span>
+          </h1> -->
+          <!-- <h1 class="head" >CoDark</h1> -->
+
+          <form id="extract-form" class="url-form-class">
+            <div class="url-box-container glass">
+              <input
+                type="url"
+                id="url-input"
+                placeholder="Url here"
+                class="urlClass"
+                required
+              />
+            </div>
+            <button type="submit" class="url-submit">Fetch</button>
+          </form>
+          
+          <div class="container" id="cont">
+            <div class=" risk-meter">
+              <!-- Risk Meter -->
+              <div class="meter">
+                <meter
+                  class="risk-meter"
+                  id="gauge"
+                  min="0"
+                  max="100"
+                  low="25"
+                  high="75"
+                  optimum="100"
+                ></meter>
+                <div id="value-status"></div>
+              </div>
+              <div class="res glass" id="responseData"></div>
+            </div>
+            <div class="loader" id="loader">
+              <div class="loaderMiniContainer">
+                <div class="barContainer">
+                  <span class="bar"></span>
+                  <span class="bar bar2"></span>
+                </div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 101 114"
+                  class="svgIcon"
+                >
+                  <circle
+                    stroke-width="7"
+                    stroke="black"
+                    transform="rotate(36.0692 46.1726 46.1727)"
+                    r="26.9"
+                    cy="46.1727"
+                    cx="46.1726"
+                  ></circle>
+                  <line
+                    stroke-width="7"
+                    stroke="black"
+                    y2="110.784"
+                    x2="97.88"
+                    y1="67.7837"
+                    x1="61.7089"
+                  ></line>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </div>
+     <!-- <div class="res glass" id="responseData"></div> -->
+    <div class="discription-box">
+      <div class="dp">
+          <p class="dp-name">Urgency</p>
+          <div class="e1">
+            
+            <div class="discription">
+                <p class="xp1">discription</p>
+                <p class="dp-text">
+                  This pattern creates a sense of urgency or pressure to make the user act quickly, without giving them enough time to think or compare options. It often uses countdown timers, limited-time offers, or phrases like “hurry up” or “don’t miss out”.
+                </p>
+            </div>
+            <div class="example">
+              <p class="xp1">example</p>
+              <p style="color : rgb(180, 97, 42)" class="dp-text">A travel website shows a message saying “Only 2 rooms left at this price” and a timer counting down from 10 minutes1</p>
+            </div>
+          </div>
+      </div>
+
+
+      <div class="dp">
+        <p class="dp-name">Scarcity</p>
+        <div class="e1">
+          
+          <div class="discription">
+              <p class="xp1">discription</p>
+              <p class="dp-text">
+                This pattern creates a sense of scarcity or exclusivity to make the user feel that they are missing out on a valuable opportunity if they don’t act fast. It often uses indicators of low stock, high demand, or limited availability.
+              </p>
+          </div>
+          <div class="example">
+            <p class="xp1">example</p>
+            <p style="color : rgb(180, 97, 42)" class="dp-text">An online store shows a message saying “Only 3 items left in stock” and a badge saying “Popular”3</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="dp">
+        <p class="dp-name">Misdirection</p>
+        <div class="e1">
+          
+          <div class="discription">
+              <p class="xp1">discription</p>
+              <p class="dp-text">
+                This pattern uses visual or verbal cues to direct the user’s attention away from something important or to something they may not want. It often uses colors, sizes, positions, or wording to make the desired option more prominent or the undesired option less noticeable.
+              </p>
+          </div>
+          <div class="example">
+            <p class="xp1">example</p>
+            <p style="color : rgb(180, 97, 42)" class="dp-text">A software installer shows a button saying “I accept these terms” for an unrelated program, while the option to skip installing it is much smaller and greyed out</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="dp">
+        <p class="dp-name">Social Proof</p>
+        <div class="e1">
+          
+          <div class="discription">
+              <p class="xp1">discription</p>
+              <p class="dp-text">
+                This pattern uses social influence or peer pressure to make the user conform to the behavior or opinion of others. It often uses testimonials, ratings, reviews, endorsements, or statistics to persuade the user.
+              </p>
+          </div>
+          <div class="example">
+            <p class="xp1">example</p>
+            <p style="color : rgb(180, 97, 42)" class="dp-text">A product page shows a message saying “4.5 out of 5 stars from 1,234 reviews” and a banner saying “As seen on TV”</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="dp">
+        <p class="dp-name">Obtruction</p>
+        <div class="e1">
+          
+          <div class="discription">
+              <p class="xp1">discription</p>
+              <p class="dp-text">
+                This pattern makes it difficult or inconvenient for the user to perform a certain task, such as cancelling a subscription, deleting an account, or opting out of a service. It often uses multiple steps, hidden options, confusing language, or delays to discourage the user.
+              </p>
+          </div>
+          <div class="example">
+            <p class="xp1">example</p>
+            <p style="color : rgb(180, 97, 42)" class="dp-text">A website shows a message saying “If you would like to cancel your membership, please call … or contact us via email at …”, instead of providing a cancel button.</p>
+          </div>
+        </div>
+      </div>
+      <div class="dp">
+        <p class="dp-name">Sneaking</p>
+        <div class="e1">
+          
+          <div class="discription">
+              <p class="xp1">discription</p>
+              <p class="dp-text">
+                This pattern tries to hide, disguise, or delay the disclosure of information or actions that the user may not agree with or notice. It often uses pre-selected checkboxes, fine print, or additional costs or items to trick the user.
+              </p>
+          </div>
+          <div class="example">
+            <p class="xp1">example</p>
+            <p style="color : rgb(180, 97, 42)" class="dp-text">A shopping website adds an extra item or a warranty to the user’s cart without their consent or knowledge.</p>
+          </div>
+        </div>
+      </div>
+      <div class="dp">
+        <p class="dp-name">Force Action</p>
+        <div class="e1">
+          
+          <div class="discription">
+              <p class="xp1">discription</p>
+              <p class="dp-text">
+                This pattern forces the user to perform an action or provide information that is not required or relevant for their current task. It often uses pop-ups, interstitials, or mandatory fields to interrupt or block the user.
+              </p>
+          </div>
+          <div class="example">
+            <p class="xp1">example</p>
+            <p style="color : rgb(180, 97, 42)" class="dp-text">A website asks the user to sign up for a newsletter or create an account before they can access the content or service they want.</p>
+          </div>
+        </div>
+      </div>
+  </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,107 @@
+.popup-body {
+    font-family: 'Roboto', sans-serif;
+    width: 84vw;
+    height: 100%;
+    padding: 15px;
+    background-color: #f7f7f7;
+    color: #333;
+    border-radius: 8px;
+    border: 1px solid #bbbbbb;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+  
+  .content {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .content-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .item-label {
+    font-size: 14px;
+    color: #555;
+    background-color: var(--bgColor--);
+    padding: 8px 10px;
+    border-radius: 10px;
+  }
+
+  .highlight{
+    border:2px solid red;
+  }
+  
+  .item-value {
+    background-color: #fff;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 2px solid #333;
+    font-weight: bold;
+  }
+  
+  .rate-section {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .rate-section p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 16px;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .icon-link {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .rate-icon {
+    width: 54px;
+    height: auto;
+    margin: 0 5px;
+    
+  }
+  
+  .rate-icon:hover {
+    opacity: 0.8;
+  }
+  
+  .label-section {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: start;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    margin-right: 10px;
+  }
+  
+  .rate-icon {
+    width: 45px;
+    height: auto;
+  }
+  
+  .label-section p {
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.2em;
+    color: #333;
+    flex: 1;
+    white-space: wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }

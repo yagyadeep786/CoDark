@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CoDark</title>
+    <link rel="stylesheet" href="./popup.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./logo.jpg" type="image/x-icon">
+  </head>
+  <body class="popup-body">
+    <div class="label-section">
+      <div class="logo">
+            <img src="./logo.jpg" alt="icon" class="rate-icon" />
+      </div>
+      <p><strong>CoDark</strong></p>
+    </div>
+
+    <div class="content">
+      <div class="content-item">
+          <span class="item-label" style="--bgColor--:rgba(255, 0, 0, 0.514);"><strong>Urgency</strong> flagged</span>
+          <span class="item-value" id="sponsoredCount">...</span>
+      </div>
+      <div class="content-item">
+          <span class="item-label" style="--bgColor--:rgba(233, 217, 0, 0.514);"><strong>Scarcity</strong> flagged</span>
+          <span class="item-value" id="sponsoredShelfCount">...</span>
+      </div>
+      <div class="content-item">
+          <span class="item-label" style="--bgColor--:rgba(1, 231, 51, 0.514);"><strong>Misdirection</strong> flagged</span>
+          <span class="item-value" id="videoCount">...</span>
+      </div>
+      <div class="content-item">
+        <span class="item-label" style="--bgColor--:rgba(0, 181, 236, 0.514);"><strong>Social Proof</strong> flagged</span>
+        <span class="item-value" id="videoCount">...</span>
+      </div>
+
+      <div class="content-item">
+        <span class="item-label" style="--bgColor--:rgba(0, 26, 255, 0.514);"><strong>Obstruction</strong> flagged</span>
+        <span class="item-value" id="videoCount">...</span>
+      </div>
+
+      <div class="content-item">
+        <span class="item-label" style="--bgColor--:rgba(0, 0, 0, 0.514);"><strong>Sneaking</strong> flagged</span>
+        <span class="item-value" id="videoCount">...</span>
+      </div>
+
+      <div class="content-item">
+        <span class="item-label" style="--bgColor--:rgba(93, 2, 238, 0.514);"><strong>Forced Action</strong> flagged</span>
+        <span class="item-value" id="videoCount">...</span>
+      </div>
+
+      <div>
+        <button id="mybtn1">Fetch</button>
+      <button id="mybtn">Highlight</button>
+      </div>
+    </div>
+
+  </body>
+  <script src="./popup.js"></script>
+</html>
