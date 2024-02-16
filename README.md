@@ -1,41 +1,40 @@
-# Dark Pattern Buster Chrome Extension
+**CoDark: Navigate the Web with Transparency and Trust**
+Combat deceptive website design and empower your online experience with CoDark, a powerful Chrome extension.
 
-## Overview
-Welcome to the Dark Pattern Buster Chrome Extension developed by students from Sikkim Manipal University. Our extension is a powerful tool designed to detect and combat dark patterns on websites, providing users with a more transparent and user-friendly online experience. The project leverages three state-of-the-art language models: RoBERTa, XLNet, and BERT.
+Developed by:
 
-### Features
-**Pattern Detection:** The extension utilizes three advanced LLM models—RoBERTa, XLNet, and BERT—to detect and highlight potential dark patterns on websites.
+1. Shaurya Vardhan Mishra
+2. Nihal Patidar
+3. Yagyadeep Ahirwar
+4. Vivek Vaibhav
+5. Astha Nayak
 
-**Dataset:** We have gathered a comprehensive dataset from various sources to train and fine-tune our models for accurate pattern detection. The dataset has been taken from 
+**Protect Yourself from Dark Patterns:**
 
-**User Alerts:** Receive real-time alerts when visiting a website that employs deceptive design practices.
+1. Advanced Language Model (LLM) Detection: CoDark harnesses the power of LLM technology, including XLNet and BERT, to identify and highlight manipulative design elements ("dark patterns") employed by websites.
+2. Real-time Alerts: Be instantly notified upon encountering potential dark patterns, ensuring you browse with full awareness.
+3. Comprehensive Dataset: Trained on a curated dataset, CoDark boasts accurate and nuanced pattern detection, safeguarding you from a wide range of deceptive tactics.
 
-**Educational Resources:** Access resources within the extension to learn more about dark patterns and how to protect yourself online.
+**Embrace Transparency and User Choice:**
 
+1. Automated Page Analysis: Upon visiting any website, CoDark seamlessly analyzes the page in real-time, illuminating potential dark patterns.
+2. Granular Highlighting: Suspicious elements are highlighted directly on the page, drawing your attention to manipulative design practices.
+3. Deepen Your Understanding: Access educational resources within the extension to learn about dark patterns and equip yourself with the knowledge to make informed online decisions.
+4. Contribute to a More Ethical Web.
+5. Share Your Feedback: CoDark is continuously evolving. Share your experience, suggestions, and ideas to shape the future of the extension and contribute to a safer online environment through our website.
 
-### Team Members
-- Anish
-- Gagan
-- Kunsang
-- Grenish
+Contact the Developers: Reach out to the CoDark team at [yagyadeepahirwar@gmail.com] with any feedback, questions, or collaboration opportunities.
 
-## Installation
-To install the Dark Pattern Buster(Pixet) Chrome Extension, follow these steps:
+**Technical Specifications:**
 
-1. Download the extension from the [Chrome Web Store].
-2. Open Google Chrome and navigate to the "Extensions" page (chrome://extensions/).
-3. Drag and drop the downloaded extension file onto the extensions page to install it.
+Development Framework: JavaScript (JS)
+Data Preprocessing and Model Training: Python libraries (e.g., Pandas, Torch, scikit-learn)
+Extension Deployment: Chromium and Web Extension API
+Dataset Sources: Publicly available datasets curated from relevant research papers and workshops
 
-## Usage
-After installation, the Dark Pattern Buster icon will appear in your browser toolbar. Simply visit any website, and the extension will automatically analyze the page for dark patterns. If a dark pattern is detected, you will receive a notification, and the relevant elements will be highlighted on the page.
+Inspired by:
+"Dark Patterns at Scale: Findings from a Crawl of 11K Shopping Websites" by Mathur et al.
+IEEE BigData 2022 Workshop Dataset by YadaYuki
 
-## Support and Feedback
-We welcome feedback and suggestions for improvement. If you encounter any issues or have ideas for enhancing the Dark Pattern Buster Chrome Extension, please reach out to our team at [mrcoder2033d+pixelprophets@gmail.com].
-
-Thank you for using the Dark Pattern Buster Chrome Extension (Pixet) We hope it empowers you to navigate the web safely and promotes a more ethical online environment.
-
-## Acknowledgements
-
-This project is based on the Mathur et al.’s study and its dataset. We thank their authors for making the source code publically available.
-
-We have also used the dataset from YadaYuki's workshop on IEEE BigData 2022 which was also updated from Mathur et al's datset
+**Disclaimer:** While inspired by these works, CoDark's dataset and implementation are unique and developed independently by the Jabalpur Engineering College team.
+Together, let's build a web space where transparency and user empowerment reign supreme. Download CoDark today and experience the difference!
